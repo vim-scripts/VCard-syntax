@@ -36,9 +36,9 @@ syn match VCStatement	"^BEGIN:VCARD.*$"
 syn match VCStatement	"^END:VCARD.*$"
 syn match VCStatement	"^.*VERSION:.*$"
 
-"syn region  basicString		start=+"+  end=+"+  
-"syn region  basicString		start=+'+  end=+'+  
-"syn region  basicString		start=+\\+  end=+\\+  
+"syn region  basicString		start=+"+  end=+"+
+"syn region  basicString		start=+'+  end=+'+
+"syn region  basicString		start=+\\+  end=+\\+
 
 "syn region  basicComment	start="REM\s" end="$" contains=basicTodo
 "syn region  basicComment	start="*" end="$" contains=basicTodo
